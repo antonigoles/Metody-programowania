@@ -1,0 +1,7 @@
+{
+    "ocaml.sandbox": {
+        "kind": "opam",
+        "switch": "playground"
+    },
+    "cmake.configureOnOpen": false
+}
