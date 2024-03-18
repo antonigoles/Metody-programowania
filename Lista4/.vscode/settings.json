@@ -1,6 +1,6 @@
 {
-    "ocaml.sandbox": {
-        "kind": "opam",
-        "switch": "playground"
-    }
+  "ocaml.sandbox": {
+    "kind": "opam",
+    "switch": "default"
+  }
 }
