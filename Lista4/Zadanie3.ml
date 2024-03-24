@@ -21,3 +21,4 @@ module MakeListDict (M: Map.OrderedType) : (DICT with type key = M.t) = struct
 end
 
 module CharListDict = MakeListDict (Char);;
+CharListDict.insert 'a' 123 CharListDict.empty;;
