@@ -1,0 +1,23 @@
+# dune utop src
+# OCAMLPARAM: unset
+# Shared cache: disabled
+# Shared cache location: /Users/antoni/.cache/dune/db
+# Workspace root: /Users/antoni/Desktop/Metody-programowania/Lista6/Zadanie7
+# Auto-detected concurrency: 8
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Dev
+#  ; merlin = true
+#  ; fdo_target_exe = None
+#  ; build_dir = In_build_dir "default"
+#  ; installed_env =
+#      map
+#        { "INSIDE_DUNE" :
+#            "/Users/antoni/Desktop/Metody-programowania/Lista6/Zadanie7/_build/default"
+#        ; "OCAML_COLOR" : "always"
+#        ; "OPAMCOLOR" : "always"
+#        }
+#  ; instrument_with = []
+#  }
+$ /opt/homebrew/bin/ocamlc.opt -config > /var/folders/51/fm85s4fj7kdc924nsnd0534c0000gn/T/dune_1f41a2_output

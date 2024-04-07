@@ -1,0 +1,10 @@
+opam-version: "2.0"
+synopsis: "/Users/antoni/Desktop/Metody-programowania/Lista6/calc"
+opam-root: "/Users/antoni/.opam"
+paths {
+  
+}
+variables {
+  user: "antoni"
+  group: "staff"
+}
