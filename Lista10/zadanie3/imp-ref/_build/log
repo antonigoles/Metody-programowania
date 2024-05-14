@@ -1,0 +1,29 @@
+# dune exec imp ./example.imp
+# OCAMLPARAM: unset
+# Shared cache: disabled
+# Shared cache location: /Users/antoni/.cache/dune/db
+# Workspace root:
+# /Users/antoni/Desktop/Metody-programowania/Lista10/zadanie3/imp-ref
+# Auto-detected concurrency: 8
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Dev
+#  ; merlin = true
+#  ; fdo_target_exe = None
+#  ; build_dir = In_build_dir "default"
+#  ; installed_env =
+#      map
+#        { "INSIDE_DUNE" :
+#            "/Users/antoni/Desktop/Metody-programowania/Lista10/zadanie3/imp-ref/_build/default"
+#        ; "OCAML_COLOR" : "always"
+#        ; "OPAMCOLOR" : "always"
+#        }
+#  ; instrument_with = []
+#  }
+$ /opt/homebrew/bin/ocamlc.opt -config > /var/folders/51/fm85s4fj7kdc924nsnd0534c0000gn/T/dune_642624_output
+$ (cd _build/default && /opt/homebrew/bin/ocamldep.opt -modules -impl src/eval.ml) > _build/default/src/.imp.eobjs/dune__exe__Eval.impl.d
+$ (cd _build/default && /opt/homebrew/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -bin-annot -I src/.imp.eobjs/byte -no-alias-deps -opaque -open Dune__exe -o src/.imp.eobjs/byte/dune__exe__Eval.cmo -c -impl src/eval.ml)
+$ (cd _build/default && /opt/homebrew/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -I src/.imp.eobjs/byte -I src/.imp.eobjs/native -intf-suffix .ml -no-alias-deps -opaque -open Dune__exe -o src/.imp.eobjs/native/dune__exe__Imp.cmx -c -impl src/imp.ml)
+$ (cd _build/default && /opt/homebrew/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -I src/.imp.eobjs/byte -I src/.imp.eobjs/native -intf-suffix .ml -no-alias-deps -opaque -open Dune__exe -o src/.imp.eobjs/native/dune__exe__Eval.cmx -c -impl src/eval.ml)
+$ (cd _build/default && /opt/homebrew/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -o src/imp.exe src/.imp.eobjs/native/dune__exe.cmx src/.imp.eobjs/native/dune__exe__Ast.cmx src/.imp.eobjs/native/dune__exe__Eval.cmx src/.imp.eobjs/native/dune__exe__Parser.cmx src/.imp.eobjs/native/dune__exe__Lexer.cmx src/.imp.eobjs/native/dune__exe__Imp.cmx)

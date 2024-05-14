@@ -18,7 +18,7 @@ let eval_op (op : bop) (v1 : value) (v2 : value) : value =
 
 let rec eval (e : expr) : value =
   match e with
-  | Int n -> VInt n
+  | Int n -> VInt (n mod 5)
   | Bool b -> VBool b
   | If (p, t, e) ->
       (match eval p with
