@@ -1,0 +1,8 @@
+var a
+var b
+begin
+  a := 0
+  b := a++
+  write a
+  write b
+end
